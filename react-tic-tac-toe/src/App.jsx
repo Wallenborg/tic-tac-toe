@@ -1,9 +1,11 @@
-import Board from "./assets/Board";
+import Game from "./assets/Board";
+import Rules from "./assets/Rules";
 
 function App() {
   return (
     <>
-      <Board />
+      <Rules />
+      <Game />
     </>
   );
 }
